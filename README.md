@@ -1,13 +1,12 @@
 # Kian Erfaan's Personal Website
 
-Welcome to the source code for my personal website, hosted at [kianerfaan.com](https://kianerfaan.com). This site serves as a hub for sharing information about my professional background, projects, articles, and various interests.
+Welcome to the source code for my personal website, hosted at [kianerfaan.com](https://kianerfaan.com). This site serves as a hub for sharing information about my and various interests.
 
 ## Features
 
-- **About Me**: A detailed overview of my background, including education, work history, and professional affiliations.
-- **Professional Background**: An in-depth look at my career, qualifications, and the professional roles I've held.
-- **Articles**: A curated selection of articles and papers I've authored, covering topics in law, technology, and international relations.
-- **Contact**: Information on how to reach me for professional inquiries or collaborations.
+- **About Me**: An overview of my background, including education, work history, and professional affiliations.
+- **Professional Background**: A look at my career, qualifications, and the professional roles I've held.
+- **Articles**: A selection of articles and papers I've authored, covering topics in law, technology, and international relations.
 
 ## License
 
