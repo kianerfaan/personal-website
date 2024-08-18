@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,46 +8,59 @@
     <title>Articles - Kian Erfaan</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Articles</h1>
+        <h1>Articles by Kian E. Jamasbi</h1>
     </header>
+
     <main>
-        <section>
-            <article>
+        <section class="articles-list">
+            <article class="article-item">
                 <h2>Subsidiarity in Child Care</h2>
                 <p><strong>Date:</strong> April 20, 2024</p>
                 <p><strong>Location:</strong> Philadelphia, Pennsylvania</p>
                 <p>This paper explores briefly the recent revisions to Pennsylvania’s Nonprofit Corporation...</p>
+                <a href="subsidiarity-in-child-care.html" class="read-more">Read More</a>
             </article>
-            <article>
+
+            <article class="article-item">
                 <h2>The Controversial Genesis of the Saturn V Rocket</h2>
                 <p><strong>Date:</strong> June 1, 2016</p>
                 <p><strong>Location:</strong> Ft. Washington, Pennsylvania</p>
                 <p>With the end of World War II, the United States and the Soviet Union emerged as global superpowers, each keen to showcase their...</p>
+                <a href="saturn-v-genesis.html" class="read-more">Read More</a>
             </article>
-            <article>
+
+            <article class="article-item">
                 <h2>Sino-American Trade Relations: Soybeans, Rare Earth Elements, and Renewable Energy</h2>
                 <p><strong>Date:</strong> December 13, 2019</p>
                 <p><strong>Location:</strong> Ann Arbor, Michigan</p>
                 <p>This article explores the complexities of Sino-American trade relations...</p>
+                <a href="sino-american-trade.html" class="read-more">Read More</a>
             </article>
-            <article>
+
+            <article class="article-item">
                 <h2>Bitcoin as a Treasury Reserve Asset is a Fiduciary Duty</h2>
                 <p><strong>Date:</strong> December 13, 2023</p>
                 <p><strong>Location:</strong> New York City, New York</p>
                 <p>This article presents a comprehensive argument supporting the inclusion of Bitcoin in corporate treasury assets as a...</p>
+                <a href="bitcoin-fiduciary-duty.html" class="read-more">Read More</a>
             </article>
-            <article>
+
+            <article class="article-item">
                 <h2>Good Civilizations & Industrialized Societies</h2>
                 <p><strong>Date:</strong> April 7, 2019</p>
                 <p><strong>Location:</strong> Ann Arbor, Michigan</p>
                 <p>This article examines the characteristics of good civilizations and how industrialization impacts societal development...</p>
+                <a href="good-civilizations.html" class="read-more">Read More</a>
             </article>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2024 Kian Erfaan Jamasbi. All Rights Reserved.</p>
+        <p>&copy; 2024 Kian E. Jamasbi. All Rights Reserved.</p>
     </footer>
 </body>
+
 </html>
