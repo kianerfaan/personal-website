@@ -1,7 +1,15 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,57 +18,114 @@ body {
     line-height: 1.6;
 }
 
+/* Header Styling */
 header {
-    background-color: #4CAF50;
+    background-color: #FF4F00; /* International Orange */
     color: white;
-    padding: 20px;
+    padding: 20px 10px;
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
 }
 
+/* Main Content Area */
 main {
     flex: 1;
     padding: 20px;
-    text-align: left;
-}
-
-main h2, main h3 {
-    color: #4CAF50;
-}
-
-footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 10px 0;
 }
 
+/* Section Headings */
+main h2 {
+    color: #FF4F00;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Links */
 a {
-    color: #4CAF50;
+    color: #FF4F00;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 600px) {
-    header, main, footer {
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin: 15px 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
+
+/* Image Styling */
+.header-img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* X Link Styling */
+.x-link {
+    display: inline-block;
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    background-image: url('path-to-x-logo.png'); /* Update with correct path */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+        padding: 15px 10px;
+    }
+
+    .header-img {
+        width: 90%;
+    }
+
+    main {
         padding: 15px;
+        text-align: left;
     }
 
-    h1 {
-        font-size: 1.8em;
+    footer {
+        font-size: 0.8em;
+        padding: 15px 10px;
     }
+}
 
-    h2 {
-        font-size: 1.4em;
-    }
-
-    h3 {
+@media (max-width: 480px) {
+    header {
         font-size: 1.2em;
     }
 
-    p, ul {
-        font-size: 1em;
+    .x-link {
+        width: 40px;
+        height: 40px;
+    }
+
+    main {
+        text-align: center;
     }
 }
