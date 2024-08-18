@@ -1,25 +1,26 @@
 # Kian Erfaan's Personal Website
 
-Welcome to the source code for my personal website, hosted at [kianerfaan.com](https://kianerfaan.com). This site serves as my digital presence where I share information about myself, my projects, and other interests.
+Welcome to the source code for my personal website, hosted at [kianerfaan.com](https://kianerfaan.com). This site serves as a hub for sharing information about my professional background, projects, articles, and various interests.
 
 ## Features
 
-- **About Me**: Learn more about who I am and what I do.
-- **Projects**: A showcase of my ongoing and completed projects.
-- **Contact**: Information on how to get in touch with me.
+- **About Me**: A detailed overview of my background, including education, work history, and professional affiliations.
+- **Professional Background**: An in-depth look at my career, qualifications, and the professional roles I've held.
+- **Articles**: A curated selection of articles and papers I've authored, covering topics in law, technology, and international relations.
+- **Contact**: Information on how to reach me for professional inquiries or collaborations.
 
 ## License
 
-This website's code is open source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as you see fit.
+This website's code is open source and available under the [MIT License](LICENSE). You're free to use, modify, and distribute it as you see fit, respecting the terms of the license.
 
 ## Contributions
 
-Contributions, suggestions, and feedback are welcome! Feel free to open an issue or submit a pull request.
+Contributions, suggestions, and feedback are highly appreciated! If you have ideas for improvements or spot any issues, feel free to open an issue or submit a pull request.
 
 ## Acknowledgments
 
-Thanks to the open-source community for providing the tools and inspiration to build this website.
+Special thanks to the open-source community for providing the tools, resources, and inspiration that made this website possible.
 
 ---
 
-Visit the website at [kianerfaan.com](https://kianerfaan.com).
+Explore the website at [kianerfaan.com](https://kianerfaan.com).
