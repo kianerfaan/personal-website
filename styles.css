@@ -11,6 +11,7 @@ header {
     background-color: #333; /* Darker header */
     padding: 20px;
     text-align: center;
+    position: relative; /* Allows positioning of social links */
 }
 
 h1 {
@@ -110,12 +111,14 @@ a:hover {
 
 /* Social media icons styling */
 .social-links {
-    text-align: center;
-    margin-top: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
-.social-links img {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
+.social-links svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    fill: #e6e6e6; /* Icon color to match the light text */
 }
