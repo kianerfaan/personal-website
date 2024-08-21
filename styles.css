@@ -15,33 +15,22 @@ header {
     position: relative; /* Allows positioning of social links */
 }
 
-h1 {
-    color: #f1c40f; /* Accent color */
-    font-size: 36px;
-}
-
-.about h3 {
+h1, h2, h3, h4 {
     color: #f1c40f; /* Accent color */
     text-align: center;
     margin-bottom: 20px;
-    margin-left: 0; /* Removing left margin to ensure it's centered */
-}
-h2 {
-    color: #f1c40f; /* Accent color */
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 0; /* Removing left margin to ensure it's centered */
+    margin-left: 0; /* Ensure headings are centered */
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 ul li {
     margin-bottom: 10px;
+    line-height: 1.6;
 }
 
 footer {
@@ -61,39 +50,36 @@ a:hover {
     text-decoration: underline;
 }
 
-.articles-list {
+/* Reusable class for article and content sections */
+.section-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    text-align: left; /* Ensure content is left-aligned */
 }
 
-.articles-list h2 {
-    color: #f1c40f; /* Accent color */
-    text-align: center;
-    margin-bottom: 20px;
-    margin-left: 0; /* Removing left margin to ensure it's centered */
+/* Buffer and left alignment for content, can be applied to any section */
+.content-buffer {
+    margin-left: 40px; /* Buffer to prevent content from hugging the sides */
+    margin-right: 40px; /* Buffer for the right side as well */
+    text-align: left; /* Ensure content is left-aligned */
+}
+
+/* Article list specific styles */
+.articles-list {
+    composes: section-container; /* Reuse width, margin, and padding */
 }
 
 .articles-list ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: left; /* Ensure the list is left-aligned */
-    margin-left: 20px; /* Keeping a left margin for buffer */
+    margin-left: 20px; /* Adding a left margin for buffer */
 }
 
 .articles-list ul li {
     margin-bottom: 20px;
-    line-height: 1.6;
 }
 
 .articles-list ul li a {
-    color: #3498db; /* Link color */
     font-weight: bold;
-    text-decoration: none;
-}
-
-.articles-list ul li a:hover {
-    text-decoration: underline;
 }
 
 /* New styles for the horizontal menu */
@@ -111,7 +97,6 @@ a:hover {
 
 .nav-menu li a {
     color: #3498db; /* Link color */
-    text-decoration: none;
 }
 
 .nav-menu li a:hover {
@@ -130,20 +115,6 @@ a:hover {
     height: 20px;
     margin-left: 10px;
     fill: #e6e6e6; /* Icon color to match the light text */
-}
-
-/* Buffer and left alignment for content */
-.content-buffer {
-    margin-left: 40px; /* Buffer to prevent content from hugging the left side */
-    margin-right: 40px; /* Buffer for the right side as well */
-    text-align: left; /* Ensure content is left-aligned */
-}
-
-/* Styles for headings */
-h4 {
-    color: #f1c40f; /* Accent color for headings */
-    font-size: 24px;
-    margin-top: 20px;
 }
 
 /* Styles for role descriptions */
