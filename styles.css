@@ -122,3 +122,13 @@ a:hover {
     margin-left: 10px;
     fill: #e6e6e6; /* Icon color to match the light text */
 }
+
+/* Buffer and left alignment for content */
+.content-buffer {
+    margin-left: 20px; /* Buffer to prevent content from hugging the left side */
+    margin-right: 20px; /* Optional: Buffer for the right side as well */
+}
+
+.about {
+    text-align: left; /* Ensure content is left-aligned */
+}
