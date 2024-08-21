@@ -15,6 +15,12 @@ header {
     position: relative; /* Allows positioning of social links */
 }
 
+.container {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding */
+}
+
 h1, h3, h4 {
     color: #f1c40f;
     font-size: 24px;
@@ -27,6 +33,15 @@ h2 {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+h3.preprint-title {
+    color: #f1c40f; /* Consistent color for preprint titles */
+    text-align: center;
+}
+
+.pdf-title {
+    color: #e6e6e6; /* Neutral color for embedded PDF titles */
 }
 
 /* Ensure that content underneath headings is left-aligned with a buffer */
