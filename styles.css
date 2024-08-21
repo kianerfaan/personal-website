@@ -48,6 +48,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 .articles-list {
     max-width: 800px;
     margin: 0 auto;
@@ -80,3 +81,41 @@ a:hover {
     text-decoration: underline;
 }
 
+/* New styles for the horizontal menu */
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the menu items */
+}
+
+.nav-menu li {
+    display: inline; /* Display menu items inline */
+    margin-right: 20px; /* Space between menu items */
+}
+
+.nav-menu li a {
+    color: #3498db; /* Link color */
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Center text for main content */
+.center-text {
+    text-align: center;
+}
+
+/* Social media icons styling */
+.social-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
