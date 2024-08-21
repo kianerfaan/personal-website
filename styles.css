@@ -39,7 +39,7 @@ footer {
     background-color: #333;
     color: #e6e6e6;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
 }
 
@@ -62,6 +62,7 @@ a:hover {
     color: #f1c40f; /* Accent color */
     text-align: center;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .articles-list ul {
