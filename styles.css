@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    text-align: center; /* Centers content on the Index page by default */
 }
 
 header {
@@ -121,11 +122,8 @@ a:hover {
 
 /* Buffer and left alignment for content */
 .content-buffer {
-    margin-left: 40px; /* Increased buffer to prevent content from hugging the left side */
-    margin-right: 40px; /* Optional: Buffer for the right side as well */
-}
-
-.about {
+    margin-left: 40px; /* Buffer to prevent content from hugging the left side */
+    margin-right: 40px; /* Buffer for the right side as well */
     text-align: left; /* Ensure content is left-aligned */
 }
 
