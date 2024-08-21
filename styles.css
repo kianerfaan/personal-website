@@ -26,6 +26,12 @@ h1 {
     margin-bottom: 20px;
     margin-left: 0; /* Removing left margin to ensure it's centered */
 }
+.about h2 {
+    color: #f1c40f; /* Accent color */
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 0; /* Removing left margin to ensure it's centered */
+}
 
 ul {
     list-style-type: none;
