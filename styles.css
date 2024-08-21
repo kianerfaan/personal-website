@@ -27,6 +27,7 @@ h1 {
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0 0 0 20px; /* Add margin to the left to give some space from the edge */
 }
 
 ul li {
@@ -104,11 +105,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Center text for main content */
-.center-text {
-    text-align: center;
-}
-
 /* Social media icons styling */
 .social-links {
     position: absolute;
@@ -125,10 +121,39 @@ a:hover {
 
 /* Buffer and left alignment for content */
 .content-buffer {
-    margin-left: 20px; /* Buffer to prevent content from hugging the left side */
-    margin-right: 20px; /* Optional: Buffer for the right side as well */
+    margin-left: 40px; /* Increased buffer to prevent content from hugging the left side */
+    margin-right: 40px; /* Optional: Buffer for the right side as well */
 }
 
 .about {
     text-align: left; /* Ensure content is left-aligned */
+}
+
+/* Styles for headings */
+h4 {
+    color: #f1c40f; /* Accent color for headings */
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Styles for role descriptions */
+.role-description {
+    margin-left: 20px; /* Nesting indent */
+    margin-bottom: 15px;
+}
+
+.role-title {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.role-company {
+    display: block;
+    font-style: italic;
+}
+
+.role-dates {
+    display: block;
+    margin-top: 2px;
 }
