@@ -39,7 +39,7 @@ footer {
     background-color: #333;
     color: #e6e6e6;
     padding: 10px;
-    text-align: left;
+    text-align: center; /* Center the footer text */
     margin-top: 20px;
 }
 
@@ -60,7 +60,7 @@ a:hover {
 
 .articles-list h2 {
     color: #f1c40f; /* Accent color */
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
     margin-left: 10px;
 }
@@ -68,6 +68,7 @@ a:hover {
 .articles-list ul {
     list-style-type: none;
     padding: 0;
+    margin-left: 20px; /* Left indent for articles to prevent hugging the side */
 }
 
 .articles-list ul li {
@@ -143,14 +144,17 @@ h4 {
 
 .role-title {
     font-style: italic;
-    display: block;
+    display: inline-block;
 }
 
 .role-company {
     font-weight: bold;
     display: block;
+    margin-bottom: 5px; /* Adds some spacing between company name and role title */
 }
 
 .role-dates {
-    display: block;
+    margin-left: 10px; /* Adds spacing between role title and dates */
+    display: inline-block;
+    color: #e6e6e6; /* Subtle color for dates */
 }
