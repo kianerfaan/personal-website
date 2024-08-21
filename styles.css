@@ -141,17 +141,15 @@ h4 {
 }
 
 .role-title {
-    font-weight: bold;
+    font-style: italic;
     display: block;
-    margin-bottom: 5px;
 }
 
 .role-company {
+    font-weight: bold;
     display: block;
-    font-style: italic;
 }
 
 .role-dates {
     display: block;
-    margin-top: 2px;
 }
