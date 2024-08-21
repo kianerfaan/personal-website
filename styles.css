@@ -15,11 +15,26 @@ header {
     position: relative; /* Allows positioning of social links */
 }
 
-h1, h2, h3, h4 {
-    color: #f1c40f; /* Accent color */
+h1, h3, h4 {
+    color: #f1c40f;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
-    margin-left: 0; /* Ensure headings are centered */
+}
+
+h2 {
+    color: #f1c40f;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Ensure that content underneath headings is left-aligned with a buffer */
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
 }
 
 ul {
