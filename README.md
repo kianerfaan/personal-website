@@ -11,7 +11,7 @@ Welcome to the source code for my personal website, hosted at [kianerfaan.com](h
 
 ## License
 
-This website's code is open source.
+This website's code is MIT.
 
 ## Contributions
 
