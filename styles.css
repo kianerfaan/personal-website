@@ -1,19 +1,19 @@
 /* General */
 body {
-    background-color: #f9f9f9; /* Light, neutral background */
-    color: #333; /* Dark text for better readability */
-    font-family: 'Arial', sans-serif; /* Clean, professional font */
+    background-color: #FFFAF0; /* Warm, soft off-white background */
+    color: #444; /* Darker but less harsh text */
+    font-family: 'Poppins', sans-serif; /* Modern, friendly font */
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    text-align: center; /* Centers content on the Index page by default */
+    line-height: 1.8; /* Slightly increased for easier reading */
+    text-align: center;
 }
 
 header {
-    background-color: #4CAF50; /* Uplifting green for header */
+    background-color: #FF9800; /* Bright, energetic orange */
     padding: 20px;
     text-align: center;
-    position: relative; /* Allows positioning of social links */
+    position: relative;
     color: #fff; /* White text for contrast */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
@@ -26,18 +26,19 @@ header {
 
 /* Headings */
 h1, h2, h3, h4 {
-    color: #2C3E50; /* Deep navy for a sophisticated look */
+    color: #2A8FBD; /* Cheerful sky blue for headings */
     font-size: 28px;
+    font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 }
 
 h3.preprint-title {
-    color: #34495E; /* Slightly lighter navy for preprint titles */
+    color: #5CA3D1; /* Slightly lighter blue for variation */
 }
 
 .pdf-title {
-    color: #555; /* Neutral color for embedded PDF titles */
+    color: #666; /* Neutral color for embedded PDF titles */
 }
 
 /* Section Content */
@@ -49,20 +50,21 @@ h3.preprint-title {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: disc; /* Friendly, rounded bullets */
     padding: 0;
-    margin: 0;
+    margin: 10px 0;
 }
 
 ul li {
     margin-bottom: 10px;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
+/* Footer */
 footer {
-    background-color: #2C3E50; /* Deep navy footer for balance */
-    color: #f9f9f9; /* Light text for contrast */
-    padding: 10px;
+    background-color: #4CAF50; /* Bright, fresh green */
+    color: #fff; /* White text for contrast */
+    padding: 15px;
     text-align: center;
     margin-top: 20px;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -70,20 +72,25 @@ footer {
 
 /* Links */
 a {
-    color: #3498db; /* Calm blue link color */
+    color: #FF5722; /* Vibrant coral for links */
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #E64A19; /* Slightly darker coral on hover */
 }
 
 /* Section Containers */
 .section-container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     text-align: left;
+    background-color: #FFF8E1; /* Light, cheerful yellow background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Gentle shadow for depth */
 }
 
 .content-buffer {
@@ -111,8 +118,9 @@ a:hover {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #3498db; /* Bright menu background */
-    padding: 10px 0;
+    background-color: #03A9F4; /* Bright sky blue */
+    padding: 15px 0;
+    border-radius: 0 0 10px 10px; /* Rounded corners for friendliness */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
@@ -123,13 +131,14 @@ a:hover {
 
 .nav-menu li a {
     color: #fff; /* White text on blue background */
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-size: 16px;
 }
 
 .nav-menu li a:hover {
-    background-color: #2980b9; /* Darker blue on hover */
+    background-color: #0288D1; /* Darker blue on hover */
 }
 
 /* Social Media Icons */
@@ -140,10 +149,15 @@ a:hover {
 }
 
 .social-links svg {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     margin-left: 10px;
-    fill: #fff; /* White icons for visibility */
+    fill: #FFEB3B; /* Bright yellow for cheerful icons */
+    transition: transform 0.3s;
+}
+
+.social-links svg:hover {
+    transform: scale(1.2); /* Enlarge on hover for interactivity */
 }
 
 /* Role Descriptions */
@@ -155,17 +169,18 @@ a:hover {
 .role-title {
     font-style: italic;
     display: inline-block;
+    color: #FF5722; /* Vibrant coral */
 }
 
 .role-company {
     font-weight: bold;
     display: block;
     margin-bottom: 5px;
-    color: #4CAF50; /* Bright green for emphasis */
+    color: #03A9F4; /* Sky blue */
 }
 
 .role-dates {
     margin-left: 10px;
     display: inline-block;
-    color: #555; /* Subtle color for dates */
+    color: #555; /* Neutral color for dates */
 }
