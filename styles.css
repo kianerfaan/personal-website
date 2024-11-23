@@ -1,6 +1,7 @@
+/* General */
 body {
-    background-color: #1a1a1a; /* Dark background */
-    color: #e6e6e6; /* Light text color */
+    background-color: #f9f9f9; /* Light, neutral background */
+    color: #333; /* Dark text for better readability */
     font-family: 'Arial', sans-serif; /* Clean, professional font */
     margin: 0;
     padding: 0;
@@ -9,42 +10,37 @@ body {
 }
 
 header {
-    background-color: #333; /* Darker header */
+    background-color: #4CAF50; /* Uplifting green for header */
     padding: 20px;
     text-align: center;
     position: relative; /* Allows positioning of social links */
+    color: #fff; /* White text for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .container {
-    max-width: 1200px; /* Adjust the max-width as needed */
-    margin: 0 auto; /* Center the container */
-    padding: 0 20px; /* Add some padding */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-h1, h3, h4 {
-    color: #f1c40f;
-    font-size: 24px;
-    text-align: center;
+/* Headings */
+h1, h2, h3, h4 {
+    color: #2C3E50; /* Deep navy for a sophisticated look */
+    font-size: 28px;
     margin-bottom: 20px;
-}
-
-h2 {
-    color: #f1c40f;
-    font-size: 24px;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 h3.preprint-title {
-    color: #f1c40f; /* Consistent color for preprint titles */
-    text-align: center;
+    color: #34495E; /* Slightly lighter navy for preprint titles */
 }
 
 .pdf-title {
-    color: #e6e6e6; /* Neutral color for embedded PDF titles */
+    color: #555; /* Neutral color for embedded PDF titles */
 }
 
-/* Ensure that content underneath headings is left-aligned with a buffer */
+/* Section Content */
 .section-content {
     max-width: 800px;
     margin: 0 auto;
@@ -64,15 +60,17 @@ ul li {
 }
 
 footer {
-    background-color: #333;
-    color: #e6e6e6;
+    background-color: #2C3E50; /* Deep navy footer for balance */
+    color: #f9f9f9; /* Light text for contrast */
     padding: 10px;
-    text-align: center; /* Center the footer text */
+    text-align: center;
     margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
+/* Links */
 a {
-    color: #3498db; /* Link color */
+    color: #3498db; /* Calm blue link color */
     text-decoration: none;
 }
 
@@ -80,28 +78,23 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Reusable class for article and content sections */
+/* Section Containers */
 .section-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-align: left; /* Ensure content is left-aligned */
+    text-align: left;
 }
 
-/* Buffer and left alignment for content, can be applied to any section */
 .content-buffer {
-    margin-left: 40px; /* Buffer to prevent content from hugging the sides */
-    margin-right: 40px; /* Buffer for the right side as well */
-    text-align: left; /* Ensure content is left-aligned */
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
 }
 
-/* Article list specific styles */
-.articles-list {
-    composes: section-container; /* Reuse width, margin, and padding */
-}
-
+/* Article List */
 .articles-list ul {
-    margin-left: 20px; /* Adding a left margin for buffer */
+    margin-left: 20px;
 }
 
 .articles-list ul li {
@@ -112,28 +105,34 @@ a:hover {
     font-weight: bold;
 }
 
-/* New styles for the horizontal menu */
+/* Navigation Menu */
 .nav-menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center; /* Center the menu items */
+    text-align: center;
+    background-color: #3498db; /* Bright menu background */
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 .nav-menu li {
-    display: inline; /* Display menu items inline */
-    margin-right: 20px; /* Space between menu items */
+    display: inline;
+    margin-right: 20px;
 }
 
 .nav-menu li a {
-    color: #3498db; /* Link color */
+    color: #fff; /* White text on blue background */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .nav-menu li a:hover {
-    text-decoration: underline;
+    background-color: #2980b9; /* Darker blue on hover */
 }
 
-/* Social media icons styling */
+/* Social Media Icons */
 .social-links {
     position: absolute;
     top: 20px;
@@ -144,12 +143,12 @@ a:hover {
     width: 20px;
     height: 20px;
     margin-left: 10px;
-    fill: #e6e6e6; /* Icon color to match the light text */
+    fill: #fff; /* White icons for visibility */
 }
 
-/* Styles for role descriptions */
+/* Role Descriptions */
 .role-description {
-    margin-left: 20px; /* Nesting indent */
+    margin-left: 20px;
     margin-bottom: 15px;
 }
 
@@ -161,11 +160,12 @@ a:hover {
 .role-company {
     font-weight: bold;
     display: block;
-    margin-bottom: 5px; /* Adds some spacing between company name and role title */
+    margin-bottom: 5px;
+    color: #4CAF50; /* Bright green for emphasis */
 }
 
 .role-dates {
-    margin-left: 10px; /* Adds spacing between role title and dates */
+    margin-left: 10px;
     display: inline-block;
-    color: #e6e6e6; /* Subtle color for dates */
+    color: #555; /* Subtle color for dates */
 }
