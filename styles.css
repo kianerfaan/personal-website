@@ -1,21 +1,42 @@
-/* General */
 body {
-    background-color: #FFFAF0; /* Warm, soft off-white background */
-    color: #444; /* Darker but less harsh text */
-    font-family: 'Poppins', sans-serif; /* Modern, friendly font */
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.8; /* Slightly increased for easier reading */
+    line-height: 1.6;
     text-align: center;
 }
 
 header {
-    background-color: #FF9800; /* Bright, energetic orange */
+    background-color: #4CAF50;
     padding: 20px;
     text-align: center;
-    position: relative;
-    color: #fff; /* White text for contrast */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3498db;
+    padding: 10px 0;
+}
+
+.nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    background-color: #2980b9;
 }
 
 .container {
@@ -24,124 +45,30 @@ header {
     padding: 0 20px;
 }
 
-/* Headings */
-h1, h2, h3, h4 {
-    color: #2A8FBD; /* Cheerful sky blue for headings */
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-h3.preprint-title {
-    color: #5CA3D1; /* Slightly lighter blue for variation */
-}
-
-.pdf-title {
-    color: #666; /* Neutral color for embedded PDF titles */
-}
-
-/* Section Content */
-.section-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
-    text-align: left;
-}
-
-ul {
-    list-style-type: disc; /* Friendly, rounded bullets */
-    padding: 0;
-    margin: 10px 0;
-}
-
-ul li {
-    margin-bottom: 10px;
-    line-height: 1.8;
-}
-
-/* Footer */
-footer {
-    background-color: #4CAF50; /* Bright, fresh green */
-    color: #fff; /* White text for contrast */
-    padding: 15px;
-    text-align: center;
-    margin-top: 20px;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-/* Links */
-a {
-    color: #FF5722; /* Vibrant coral for links */
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #E64A19; /* Slightly darker coral on hover */
-}
-
-/* Section Containers */
 .section-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px;
+    margin: 20px auto;
+    padding: 20px;
     text-align: left;
-    background-color: #FFF8E1; /* Light, cheerful yellow background */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Gentle shadow for depth */
 }
 
 .content-buffer {
-    margin-left: 40px;
-    margin-right: 40px;
-    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-/* Article List */
-.articles-list ul {
-    margin-left: 20px;
-}
-
-.articles-list ul li {
-    margin-bottom: 20px;
-}
-
-.articles-list ul li a {
-    font-weight: bold;
-}
-
-/* Navigation Menu */
-.nav-menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+footer {
+    background-color: #2C3E50;
+    color: #f9f9f9;
+    padding: 10px 0;
     text-align: center;
-    background-color: #03A9F4; /* Bright sky blue */
-    padding: 15px 0;
-    border-radius: 0 0 10px 10px; /* Rounded corners for friendliness */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.nav-menu li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.nav-menu li a {
-    color: #fff; /* White text on blue background */
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    font-size: 16px;
-}
-
-.nav-menu li a:hover {
-    background-color: #0288D1; /* Darker blue on hover */
-}
-
-/* Social Media Icons */
 .social-links {
     position: absolute;
     top: 20px;
@@ -149,38 +76,13 @@ a:hover {
 }
 
 .social-links svg {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin-left: 10px;
-    fill: #FFEB3B; /* Bright yellow for cheerful icons */
-    transition: transform 0.3s;
+    fill: #fff;
+    transition: fill 0.3s ease;
 }
 
 .social-links svg:hover {
-    transform: scale(1.2); /* Enlarge on hover for interactivity */
-}
-
-/* Role Descriptions */
-.role-description {
-    margin-left: 20px;
-    margin-bottom: 15px;
-}
-
-.role-title {
-    font-style: italic;
-    display: inline-block;
-    color: #FF5722; /* Vibrant coral */
-}
-
-.role-company {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-    color: #03A9F4; /* Sky blue */
-}
-
-.role-dates {
-    margin-left: 10px;
-    display: inline-block;
-    color: #555; /* Neutral color for dates */
+    fill: #3498db;
 }
